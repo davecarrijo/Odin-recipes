@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+* {
+  margin: auto;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(255, 0, 89);
+  font-family: sans-serif;
+  padding: 10px;
+}
+a {
+  color: rgb(136, 175, 181);
+  font-family: sans-serif;
+}
+.main-content {
+  display: flex;
+  flex-flow: column;
+  width: 70em;
+  /* border: 1px solid rgba(255, 255, 255, 0.122); */
+  padding: 30px;
+}
+
+#runner_img {
+  width: 30em;
+}
