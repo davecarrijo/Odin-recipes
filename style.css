@@ -13,10 +13,14 @@ h3 {
   font-family: sans-serif;
   padding: 10px;
 }
+p {
+  color: white;
+}
 a {
   color: rgb(136, 175, 181);
   font-family: sans-serif;
 }
+
 .main-content {
   display: flex;
   flex-flow: column;
@@ -24,7 +28,21 @@ a {
   /* border: 1px solid rgba(255, 255, 255, 0.122); */
   padding: 30px;
 }
-
+ul,
+li {
+  list-style-type: decimal;
+  color: white;
+  padding: 0.3rem;
+}
 #runner_img {
   width: 30em;
+}
+.mega_pint {
+  color: rgb(236, 64, 124);
+}
+.pack_coffee {
+  padding: 30px;
+}
+.recipe {
+  padding-top: 3rem;
 }
